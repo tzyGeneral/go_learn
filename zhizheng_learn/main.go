@@ -8,6 +8,8 @@ func main() {
 	//控指针
 	var ptr *int
 
+	var text string = "fdhfjhfsdaf"
+
 	ip = &a
 	fmt.Printf("变量的地址: %x\n", &a)
 
@@ -18,4 +20,6 @@ func main() {
 	fmt.Printf("ip变量的值 %d\n", *ip)
 
 	fmt.Printf("ptr 变量的值为: %x\n", ptr)
+
+	fmt.Printf("变量的值为%s",text)
 }
